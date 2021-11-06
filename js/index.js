@@ -91,7 +91,8 @@ $(document).ready(function() {
                <h5 class="card-title">${title}</h5>
                <p class="card-text">Author: ${author}</p>
                <p class="card-text">Publisher: ${publisher}</p>
-               <p class="card-text"> This book is not available</p>
+               <p class="card-text"> This book is available</p>
+               <a target="_blank" href="${viewUrl}" class="btn btn-secondary">Read Book</a>
              </div>
            </div>
          </div>
